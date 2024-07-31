@@ -26,7 +26,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Flight-School/AnyCodable", .upToNextMajor(from: "0.6.7")),
         .package(url: "https://github.com/apple/swift-asn1.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/apple/swift-crypto.git", .upToNextMajor(from: "3.2.0")),
+        .package(url: "https://github.com/orobio/swift-crypto.git", revision: "9bc1f24d14fd92abc5aec63fb257dffc39552b30"),
         .package(url: "https://github.com/apple/swift-certificates", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMajor(from: "1.8.0")),
         // Plugins
